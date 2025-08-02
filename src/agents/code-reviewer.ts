@@ -1,4 +1,3 @@
-// src/agents/code-reviewer.ts
 import { ChatOpenAI } from '@langchain/openai';
 import { AgentExecutor, createOpenAIFunctionsAgent } from 'langchain/agents';
 import { ChatPromptTemplate } from '@langchain/core/prompts';

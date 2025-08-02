@@ -9,7 +9,7 @@ export async function createCodeReviewSandbox(repoUrl: string, branch: string): 
   try {
     const sandbox = await daytona.create({
       language: 'typescript',
-      autoStopInterval: 15, // Auto-stop after 15 minutes
+      autoStopInterval: 15, //stop after 5 mins
     });
 
     // Clone the PR branch
